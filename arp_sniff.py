@@ -1,4 +1,3 @@
-print("Listening for ARP packets... Press CTRL+C to stop")
 from scapy.all import sniff, ARP
 
 print("Listening for ARP packets... Press CTRL+C to stop")
@@ -7,5 +6,6 @@ def arp_monitor(packet):
     if packet.haslayer(ARP):
         arp = packet[ARP]
         print(f"[ARP] {arp.psrc} -> {arp.hwsrc}")
+
 
 sniff(filter="arp", prn=arp_monitor, store=False)
