@@ -8,4 +8,4 @@ def arp_monitor(packet):
         print(f"[ARP] {arp.psrc} -> {arp.hwsrc}")
 
 
-sniff(filter="arp", prn=arp_monitor, store=False)
+sniff(filter="arp", prn=arp_monitor, store=False, iface = "Wi-Fi)
