@@ -13,7 +13,7 @@ from scapy.all import sniff, ARP
 class FixedARPDetectorGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("🛡️ CyberShield - ARP Spoofing & MITM Detector")
+        self.root.title("🛡️ SpoofSec - ARP Spoofing & MITM Detector")
         self.root.geometry("1400x850")
         self.root.configure(bg='#0a0e27')
         
@@ -67,7 +67,7 @@ class FixedARPDetectorGUI:
         header.pack(fill='x', padx=10, pady=5)
         header.pack_propagate(False)
         
-        title = tk.Label(header, text="🛡️ CYBERSHIELD - ARP SPOOFING & MITM DETECTION SYSTEM", 
+        title = tk.Label(header, text="🛡️ SPOOFSEC - ARP SPOOFING & MITM DETECTION SYSTEM", 
                         font=('Segoe UI', 16, 'bold'), bg='#0d1117', fg='#00d4ff')
         title.pack(pady=12)
         
@@ -280,7 +280,7 @@ class FixedARPDetectorGUI:
         self.status_text.pack(side='left', padx=20)
         
         # Initial alerts
-        self.add_alert("🛡️ CyberShield Activated")
+        self.add_alert("🛡️ SpoofSec Activated")
         self.add_alert("📡 Select interface and click Auto-Detect")
         self.add_alert("▶ Click START MONITORING to begin")
         
@@ -478,7 +478,7 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__":
-    print("Starting CyberShield...")
+    print("Starting SpoofSec...")
     if os.name == 'nt':
         try:
             import ctypes
