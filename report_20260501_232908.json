@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260501_232908",
+  "duration": 60,
+  "interface": "Wi-Fi",
+  "gateway": "10.86.191.8",
+  "statistics": {
+    "total_packets": 293,
+    "arp_packets": 7,
+    "security_score": 100.0,
+    "mitm_detected": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp": "20260504_004301",
+  "interface": "Wi-Fi 2",
+  "gateway": "10.86.191.8",
+  "my_ip": "10.86.191.118",
+  "statistics": {
+    "total_packets": 101,
+    "arp_packets": 20,
+    "suspicious": 1,
+    "alerts": 1,
+    "security_score": 95.0
+  },
+  "alerts": [
+    {
+      "timestamp": 1777835538.2841,
+      "type": "MITM_ATTACK",
+      "gateway": "10.86.191.8",
+      "expected_mac": "90:de:80:13:2d:48",
+      "fake_mac": "4e:90:5a:b7:7f:b4"
+    }
+  ],
+  "arp_table": {
+    "10.86.191.8": "90:de:80:13:2d:48",
+    "10.86.191.124": "90:de:80:13:2d:48",
+    "10.86.191.71": "90:de:80:13:2d:48"
+  }
+}

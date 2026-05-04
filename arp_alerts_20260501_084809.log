@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-05-01T08:48:09.054819",
+    "type": "ARP_SPOOF",
+    "ip": "192.168.1.100",
+    "expected_mac": "AA:BB:CC:DD:EE:FF",
+    "actual_mac": "11:11:11:11:11:11",
+    "message": "ARP Spoofing detected! IP 192.168.1.100 changed MAC from AA:BB:CC:DD:EE:FF to 11:11:11:11:11:11"
+  }
+]

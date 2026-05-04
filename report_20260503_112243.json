@@ -1,0 +1,18 @@
+{
+  "timestamp": "20260503_112243",
+  "interface": "Wi-Fi",
+  "gateway": "10.86.191.8",
+  "my_ip": "10.86.191.124",
+  "statistics": {
+    "total_packets": 4608,
+    "arp_packets": 4,
+    "suspicious": 0,
+    "alerts": 0,
+    "security_score": 100.0
+  },
+  "alerts": [],
+  "arp_table": {
+    "10.86.191.124": "4c:d5:77:33:28:89",
+    "10.86.191.8": "ca:4e:ec:de:4d:b6"
+  }
+}

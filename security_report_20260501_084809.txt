@@ -1,0 +1,13 @@
+LAN Security Report
+==================================================
+Generated: 2026-05-01 08:48:09.059142
+
+Security Score: 50.0%
+Total Packets: 2
+ARP Packets: 2
+Suspicious Packets: 1
+Detected Attacks: 1
+Suspicious Devices: 1
+
+ALERTS:
+  - ARP Spoofing detected! IP 192.168.1.100 changed MAC from AA:BB:CC:DD:EE:FF to 11:11:11:11:11:11
